@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Monster PC</title>
+        <style>
+            body {
+                width: 100%;
+            }
+            table,
+            td,
+            th {
+                border: 2px solid;
+                border-color: rgb(162, 162, 162);
+                padding: 3px 10px 3px 10px;
+                border-collapse: collapse;
+            }
+            tr > td:nth-child(2) {
+                font-weight: 600;
+                font-size: 1.5rem;
+            }
+            h1 {
+                color: brown;
+            }
+            h2 {
+                font-size: large;
+                color: brown;
+            }
+            h3 {
+                color: blueviolet;
+            }
+            h4 {
+                color: red;
+            }
+            div:nth-child(0) {
+                display: flex;
+            }
+            .k {
+                width: 33%;
+            }
+            .tableclass {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .main {
+                display: flex;
+                flex-direction: column;
+                width: 80%;
+                margin: 0% 10% 0% 10%;
+            }
+        </style>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="tableclass">
+            <h1 style="color: brown;">Indestructible war machine</h1>
+            <table class="table table-dark table-striped">
+                <tr>
+                    <th>Part</th>
+                    <th>Price</th>
+                    <th>Link</th>
+                </tr>
+                <tr>
+                    <td>PC Case - Hyte Revolt 3</td>
+                    <td>£132</td>
+                    <td>
+                        <a href="https://hyte.com/store/revolt-3?v=84&zCountry=GB"
+                            >Hyte - international</a
+                        >
+                        <a
+                            href="https://www.ebay.co.uk/itm/305469484636?chn=ps&_ul=GB&norover=1&mkevt=1&mkrid=710-166974-033325-9&mkcid=2&mkscid=101&itemid=305469484636&targetid=2204408308731&device=c&mktype=pla&googleloc=9044963&poi=&campaignid=20258287086&mkgroupid=149738780083&rlsatarget=pla-2204408308731&abcId=9314089&merchantid=522608877&gad_source=1&gclid=Cj0KCQjwpZWzBhC0ARIsACvjWRPfn7SLzieLZgXi0_eZoPJSCkOg0_4XntWWOT55LwMIUa_hhFPkYOYaAqFBEALw_wcB"
+                            >Ebay UK - £132</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Graphic Card GPU - Gigabyte NVIDIA GeForce RTX 4070 SUPER EAGLE OC Graphics
+                        Card for Gaming - 12GB
+                    </td>
+                    <td>£630</td>
+                    <td>
+                        <a
+                            href="https://www.ebuyer.com/2191579-gigabyte-nvidia-geforce-rtx-4070-super-eagle-oc-graphics-card-for-gaming-gv-n407seagle-oc-12gd"
+                            >Ebuyer</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Processor CPU - Intel Core i5 13600K</td>
+                    <td>£260</td>
+                    <td>
+                        <a
+                            href="https://www.ebuyer.com/1541745-intel-core-i5-13600k-unlocked-processor-bx8071513600k"
+                            >Ebuyer</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        CPU AIO WATER COOLING - MSI MAG 240mm CoreLiquid 240R V2 ARGB CPU Liquid
+                        Cooler
+                    </td>
+                    <td>£89</td>
+                    <td>
+                        <a
+                            href="https://www.ebuyer.com/1423484-msi-mag-240mm-coreliquid-240r-v2-argb-cpu-liquid-cooler-306-7zw1b41-813"
+                            >Ebuyer</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Motherboard MOBO - ASUS Intel ROG STRIX B760-I GAMING WIFI LGA 1700 DDR5
+                        Micro ITX Gaming Motherboard
+                    </td>
+                    <td>£185</td>
+                    <td>
+                        <a
+                            href="https://www.ebuyer.com/1615637-asus-intel-rog-strix-b760-i-gaming-wifi-lga-1700-ddr5-micro-itx-rog-strix-b760-i-gaming-wifi"
+                            >Ebuyer</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Power supply PSU - CORSAIR SF850L 850w SFX</td>
+                    <td>£149</td>
+                    <td>
+                        <a
+                            href="https://www.ebuyer.com/1830178-corsair-sf850l-850w-sfx-power-supply-unit-cp-9020245-uk"
+                            >Ebuyer</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Storage memory NVME 2TB - Crucial P3 Plus 2TB M.2</td>
+                    <td>£103</td>
+                    <td>
+                        <a
+                            href="https://www.ebuyer.com/1426923-crucial-p3-plus-2tb-m-2-internal-ssd-ct2000p3pssd8"
+                            >Ebuyer</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Memory RAM - CORSAIR VENGEANCE RGB 32GB DDR5 6000MHz RAM Desktop Memory for
+                        Gaming
+                    </td>
+                    <td>£107</td>
+                    <td>
+                        <a
+                            href="https://www.ebuyer.com/1897867-corsair-vengeance-rgb-32gb-ddr5-6000mhz-ram-desktop-memory-for-gaming-cmh32gx5m2e6000c36"
+                            >Ebuyer</a
+                        >
+                    </td>
+                </tr>
+                <tr>
+                    <td>Windows 11 Pro + Avast Ultimate + Avast Driver Updater</td>
+                    <td>£40</td>
+                    <td>
+                        <p>
+                            few sources, windows lifetime - Avast got to be bough again every 3
+                            years for £20
+                        </p>
+                    </td>
+                </tr>
+            </table>
+            <h1 style="color: brown;">Total: £1695</h1>
+        </div>
+
+        <hr />
+        <div class="main"><h2 style="color: brown;">
+            Absolute BEAST of a PC, handles everything like a champ. Nasa will keep begging you to
+            borrow it. It's 3.5 times faster than Xbox series X or PS5 - will run like dream for a
+            decade. It will look mesmerising on 75" teli. Real life graphic will look
+            sad next to it.
+        </h2>
+        <ul>
+            <li>
+                <b
+                    >Graphic has 30TeraFlops - PS5 Has 10 and Xbox series X has 12. It will work
+                    supersmooth at maximum details at 4K with full HDR in any game.</b
+                >
+                <ul>
+                    <li>
+                        TFLOPS are units of computing power often used to measure how fast a graphic
+                        processor is - it doesn't represent everything but gives a rough idea of
+                        what's the best case scenario on a well optimised system.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <b>Overall it is small - base is 9.9 x 7 inches and 16inches high</b>
+                <ul>
+                    <li>
+                        Requires only 2 cables to connect after moving it - power cable to socket
+                        and hdmi.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <b
+                    >Build in WIFI 6 - connect automatically with high range - also can be connected
+                    with Ethernet cable</b
+                >
+                <ul>
+                    <li>Antena in on the magnet atached to the case.</li>
+                </ul>
+            </li>
+            <li>
+                <b>It will start and be ready to play game in 20s.</b>
+                <ul>
+                    <li>
+                        Plug power, hdmi, click power button, enter 4 digit PIN at login screen and
+                        press xbox button on controller after steam automatically launches.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <b>Avast software automatic maintanance</b>
+                <ul>
+                    <li>
+                        Avast software package will do automatic monthly maintanance of your PC, it
+                        will clean it up, update drivers and software - all you need is to do is
+                        click next when notification in the middle of the screen pops up, it
+                        normally takes less than a minute.
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <b
+                    >2TB storage with option to expand it with another 2 drives without reinstalling
+                    anything</b
+                >
+                <ul>
+                    <li>If it ever runs low on storage, buy another drive and pop it in.</li>
+                </ul>
+            </li>
+            <li>
+                <b>32GB memory is 10GB overkill - future proofed</b>
+            </li>
+        </ul></div>
+        <hr />
+        <h3>
+            As for keyboard that you will use to log in and monthly to click "Next" on automatic
+            maintanance I recommend something like these (about £30) - all wireless:
+        </h3>
+        <div>
+            <img class="k" src="./1.jpg" alt="" />
+            <img class="k" src="./2.jpg" alt="" />
+            <img class="k" src="./3.jpg" alt="" />
+        </div>
+        <h3>Few pictures:</h3>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./4.jpeg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./5.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./6.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./7.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./8.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </body>
+</html>
